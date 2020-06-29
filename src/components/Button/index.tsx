@@ -13,6 +13,7 @@ const Button: React.FC<ButtonProps> = ({ children, loading, ...rest }) => (
       <ReactLoading
         width={16}
         height={16}
+        color="#312e38"
         type="spinningBubbles"
         className="spinner"
       />
